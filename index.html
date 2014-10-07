@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nueva Pestaña</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script charset="utf-8" src="script.js"></script>
+</head>
+<body>
+
+	<div id="content-wrap">
+		<form method="get" action="http://www.google.com/search">
+			<input type="text" name="q" size="31" maxlength="255" value="" id="search-box" placeholder="Búsqueda"/>
+			<input type="submit" value="Buscar" id="search-button" />
+			<label class="hidden">
+			<input type="checkbox" name="sitesearch" value="" name="button" />
+			 The Web </label>
+			<input type="radio" name="sitesearch" value="askdavetaylor.com" class="hidden" /></form>
+	</div>
+	<button type="button" onclick="photo()">Change Content</button>
+	<script src="http://api.flickr.com/services/feeds/photos_public.gne?tags=hackdayindia&#38;lang=en-us&#38;format=json">
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+
+  "name": "Nueva Pestaña",
+  "description": "Extensión para personalizar la página de Nueva Pestaña",
+  "version": "1.0",
+  "chrome_url_overrides": {
+    "newtab": "index.html"},
+  "permissions": ["bookmarks"]
+}

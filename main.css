@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+	margin: 0px;
+}
+body {
+
+	background-image: url("https://gp1.wac.edgecastcdn.net/806614/photos/photos.500px.net/83799171/5231bb7b56e1ab31dea14e201067fa03b39b10b0/2048.jpg");
+	display: flex;
+	height: 100%;
+	margin: 0px;
+	font-family: openSans, sans-serif;
+
+}
+
+#content-wrap {
+
+	margin: auto;
+
+}
+
+#search-box {
+
+	padding: 0.75em 1em;
+	margin: 0 0 0 30px;
+
+}
+
+#search-button {
+
+	display: inline-block;
+	margin: 0 30px 0 0;
+	padding: 10px 15px;
+
+}
+
+.hidden {
+	display: none;
+}
+
+@font-face {
+    font-family: openSans;
+    src: url(https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans:400,300);
+}
